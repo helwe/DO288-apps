@@ -1,0 +1,17 @@
+--> Found image 92fa44e (3 months old) in image stream "openshift/nodejs" under tag "12" for "nodejs:12"
+
+    Node.js 12 
+    ---------- 
+    Node.js 12 available as container is a base platform for building and running various Node.js 12 applications and frameworks. Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
+    Tags: builder, nodejs, nodejs12
+
+    * A source build using source code from https://github.com/helwe/DO288-apps#app-config will be created
+      * The resulting image will be pushed to image stream tag "myapp:latest"
+      * Use 'oc start-build' to trigger a new build
+    * This image will be deployed in deployment config "myapp"
+    * Port 8080/tcp will be load balanced by service "myapp"
+      * Other containers can access this service through the hostname "myapp"
+
+--> Creating resources ...
+--> Failed
